@@ -1,7 +1,7 @@
 class Question{
 
   final String questionText;
-  final bool questionAnswer;
+  late final bool questionAnswer;
 
   Question (this.questionText, this.questionAnswer);
   }
